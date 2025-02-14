@@ -1,4 +1,4 @@
-// we used 'sfc'+Tab snipped to component.!
+// we used 'sfc'+Tab snipped to create component.!
 
 const Nav = () => {
   return (

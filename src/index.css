@@ -33,3 +33,16 @@
   margin: 40px auto;
   padding: 20px;
 }
+/* this style was added by me*/
+.blog_title {
+  color: teal;
+}
+.read-more {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.read-more:hover {
+  text-decoration: underline;
+}
