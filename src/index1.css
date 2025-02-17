@@ -1,0 +1,156 @@
+* {
+  box-sizing: border-box; /* Ensures padding and border do not cause overflow */
+}
+
+body,
+html {
+  width: 100%;
+  overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+body {
+  margin: 0;
+  padding-left: 5px;
+  background-color: #f4f4f9; /* Softer background color */
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; /* Modern font stack */
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  display: flex;
+  padding: 15px; /* Increased padding to provide more space */
+  align-items: center;
+  justify-content: space-between;
+  background: linear-gradient(
+    90deg,
+    #007bff,
+    #00bfff
+  ); /* Gradient background */
+  color: white; /* White text for better contrast */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+header a {
+  color: white; /* White text for links */
+  text-decoration: none; /* Remove underline */
+  font-weight: 600; /* Bold font weight */
+}
+
+header a:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+
+footer {
+  background: linear-gradient(90deg, #007bff, #00bfff);
+  color: white;
+  text-align: center;
+  padding: 20px;
+  width: 100%;
+  margin-top: auto;
+}
+
+.paragraph {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #333;
+  background-color: #ffffff; /* White background for paragraphs */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  padding: 15px;
+}
+
+.highlight {
+  font-weight: bold;
+  color: #007bff;
+}
+
+.code {
+  font-family: "Courier New", Courier, monospace; /* Monospace font for code */
+  background-color: #e9ecef;
+  padding: 2px 5px;
+  border-radius: 5px;
+}
+
+.pre {
+  font-family: "Courier New", Courier, monospace;
+  background-color: #e9ecef;
+  padding: 15px;
+  border-radius: 5px;
+  overflow-x: auto;
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+  padding: 0px;
+  list-style-type: none;
+  margin-right: 40px;
+}
+
+.nav-list li {
+  margin-left: 30px; /* Increased margin to create more space */
+}
+
+.nav-list li a {
+  text-decoration: none; /* Remove underline */
+  color: #333; /* Default link color */
+  font-weight: 500; /* Medium font weight */
+  transition: color 0.3s ease; /* Smooth color transition */
+  padding: 30px 20px; /* Adjusted padding to add more space between the links */
+}
+
+.nav-list li a:hover {
+  color: #007bff; /* Change color on hover */
+}
+
+/* Add a nice background color and font for the body */
+body {
+  background-color: #f4f4f9; /* Soft background color */
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; /* Modern font stack */
+}
+
+/* Optional: Add a gradient background for the header */
+header {
+  background: linear-gradient(
+    90deg,
+    #007bff,
+    #00bfff
+  ); /* Gradient background */
+  color: white; /* White text for better contrast */
+}
+
+/* Style the links in the header */
+header a {
+  color: white; /* White text for links */
+  text-decoration: none; /* Remove underline */
+  font-weight: 600; /* Bold font weight */
+}
+
+header a:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .nav-list {
+    flex-direction: column;
+    align-items: flex-end;
+  }
+
+  .nav-list li {
+    margin-left: 10px;
+    margin-bottom: 10px;
+  }
+
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+header img {
+  width: 60px;
+}

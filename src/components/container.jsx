@@ -1,7 +1,7 @@
 const Container = () => {
   return (
     <main className="container">
-      <img src="/logo192.png" alt="react logo" width={40} />
+      {/* <img src="/logo192.png" alt="react logo" width={40} /> */}
       <h1>Fun facts about React</h1>
       <ul>
         <li>React Was Created at Facebook (Now Meta)</li>
