@@ -11,11 +11,12 @@ html {
 body {
   margin: 0;
   padding-left: 5px;
-  background-color: #f4f4f9; /* Softer background color */
+  background-color: rgb(36, 35, 35); /* Softer background color */
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; /* Modern font stack */
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  color: #e9ecef;
 }
 
 header {
@@ -54,12 +55,12 @@ footer {
 .paragraph {
   font-size: 1.1rem;
   line-height: 1.6;
-  color: #333;
-  background-color: #ffffff; /* White background for paragraphs */
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   margin-bottom: 20px;
   padding: 15px;
+  background-color: #f9f9f9;
+  color: #333;
 }
 
 .highlight {
@@ -72,6 +73,7 @@ footer {
   background-color: #e9ecef;
   padding: 2px 5px;
   border-radius: 5px;
+  color: teal;
 }
 
 .pre {
@@ -104,12 +106,6 @@ footer {
 
 .nav-list li a:hover {
   color: #007bff; /* Change color on hover */
-}
-
-/* Add a nice background color and font for the body */
-body {
-  background-color: #f4f4f9; /* Soft background color */
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; /* Modern font stack */
 }
 
 /* Optional: Add a gradient background for the header */
@@ -153,4 +149,26 @@ header a:hover {
 
 header img {
   width: 60px;
+}
+.react-history {
+  font-family: "Arial", sans-serif;
+  line-height: 1.6;
+  color: #333;
+  font-size: 16px;
+  text-align: justify;
+  margin: 20px;
+  padding: 15px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.react-history:hover {
+  background-color: #f1f1f1;
+}
+
+.react-history::first-letter {
+  font-size: 1.8em;
+  font-weight: bold;
+  color: #007bff;
 }

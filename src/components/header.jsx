@@ -2,19 +2,37 @@ const Header = () => {
   return (
     <>
       <header>
-        <a href="https://react.dev/blog/2023/03/16/introducing-react-dev">
+        <a href="https://react.dev/" target="_blank" rel="noopener noreferrer">
           <img src="/logo192.png" alt="react logo" />
         </a>
         <nav>
           <ul className="nav-list">
             <li>
-              <a href="http://www.google.com">Pricing</a>
+              <a
+                href="http://www.google.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Pricing
+              </a>
             </li>
             <li>
-              <a href="http://www.facebook.com">About</a>
+              <a
+                href="http://www.facebook.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                About
+              </a>
             </li>
             <li>
-              <a href="http://www.x.com">Contact</a>
+              <a
+                href="http://www.x.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Contact
+              </a>
             </li>
           </ul>
         </nav>
