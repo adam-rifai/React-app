@@ -1,10 +1,10 @@
-import { useState } from "react";
-import blogData from "./data/blogs";
+// import { useState } from "react";
+import blogData from "../data/blogs";
 const Home = () => {
-  const [blogs, setBlogs] = useState(blogData);
+  // const [blogs, setBlogs] = useState(blogData);
   return (
     <div className="home">
-      {blogs.map((blog) => (
+      {blogData.map((blog) => (
         <div className="blog_preview" key={blog.id}>
           <h2>{blog.title}</h2>
           <p>Written by {blog.author}</p>

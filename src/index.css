@@ -46,3 +46,15 @@
 .read-more:hover {
   text-decoration: underline;
 }
+
+/* my adjustments goes here------!-->*/
+
+.container ul li,
+h1 {
+  color: white;
+}
+.container {
+  margin: 50px;
+  background-color: rgb(49, 47, 47);
+  padding: 30px;
+}
