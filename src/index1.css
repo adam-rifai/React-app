@@ -11,7 +11,7 @@ html {
 body {
   margin: 0;
   padding-left: 5px;
-  background-color: rgb(36, 35, 35); /* Softer background color */
+  background-color: rgba(69, 68, 68, 0.957); /* Softer background color */
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; /* Modern font stack */
   display: flex;
   flex-direction: column;

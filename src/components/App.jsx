@@ -13,6 +13,7 @@ const App = () => {
       </div>
       <Con />
       <Fun />
+      <footer>&reg; 2025 Rifai Development. All rights reserved</footer>
     </div>
   );
 };
