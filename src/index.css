@@ -1,72 +1,46 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
 
 body {
-  font-family: "Inter", sans-serif;
+  padding: 0;
+  margin: 0;
 }
 
-/* base styles */
-* {
-  margin: 0;
-  font-family: "Quicksand";
-  color: #333;
+.nav-class {
+  background-color: rgb(226, 22, 22);
+  height: 55px;
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 30px;
 }
-.navbar {
-  padding: 20px;
+.nav-class > h3 {
+  color: #f6f6f6;
+  font-size: 0.9em;
+  font-weight: 500;
+  font-family: Inner;
+}
+
+.glob-img {
+  margin-right: 5px;
+}
+.entry-section {
   display: flex;
-  align-items: center;
-  max-width: 600px;
-  margin: 0 auto;
-  border-bottom: 1px solid #f2f2f2;
+  padding: 10px;
 }
-.navbar h1 {
-  color: #f1356d;
+.description {
+  padding-left: 15px;
+  width: 30%;
 }
-.navbar .links {
-  margin-left: auto;
-}
-.navbar a {
-  margin-left: 16px;
-  text-decoration: none;
-  padding: 6px;
-}
-.navbar a:hover {
-  color: #f1356d;
-}
-.content {
-  max-width: 600px;
-  margin: 40px auto;
-  padding: 20px;
-}
-/* this style was added by me*/
-.blog_title {
+.date {
   color: teal;
 }
-.read-more {
-  color: #007bff;
-  text-decoration: none;
-  font-weight: bold;
-}
 
-.read-more:hover {
-  text-decoration: underline;
+.city-img {
+  border: 2px solid black;
+  border-radius: 10px;
+  width: 300px;
 }
-
-/* my adjustments goes here------!-->*/
-
-.container ul li,
-h1 {
-  color: white;
-}
-.container {
-  margin: 50px;
-  background-color: rgb(49, 47, 47);
-  padding: 30px;
-}
-footer {
-  background: linear-gradient(90deg, #007bff, #00bfff);
-  color: white;
-  text-align: center;
-  padding: 20px;
-  width: 100%;
-  margin-top: auto;
+.city-title {
+  font-size: 1em;
+  font-weight: 600;
+  color: rgb(43, 228, 228);
 }
