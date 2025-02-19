@@ -1,14 +1,13 @@
-const France = () => {
-  const date = new Date().toLocaleString();
+const France = (props) => {
   return (
     <section className="entry-section">
-      <img src="/paris.webp" alt="china img" className="city-img" />
+      <img src={props.img} alt="china img" className="city-img" />
       <div className="description">
         <h3 className="city-title">
-          <span>📍</span>
-          Paris, France
+          <span>{props.location}</span>
+          {props.name}
         </h3>
-        <span className="date">{date}</span>
+        <span className="date">{props.date}</span>
         <p>
           Paris, the **City of Light**, is famous for its rich history, iconic
           landmarks, and romantic atmosphere. From the **Eiffel Tower** to the

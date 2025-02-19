@@ -1,12 +1,11 @@
-const China = () => {
-  const date = new Date().toLocaleString();
+const China = ({ img, name, date, location }) => {
   return (
     <section className="entry-section">
-      <img src="/china.webp" alt="china img" className="city-img" />
+      <img src={img} alt="china img" className="city-img" />
       <div className="description">
         <h3 className="city-title">
-          <span>📍</span>
-          Shanghai, China
+          <span>{location}</span>
+          {name}
         </h3>
         <span className="date">{date}</span>
         <p>
