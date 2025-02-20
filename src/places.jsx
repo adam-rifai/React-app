@@ -1,0 +1,68 @@
+const places = [
+  {
+    index: 0,
+    img: { src: "/shanghai.webp", alt: "China image" },
+    name: "Shanghai, China",
+    date: new Date().toLocaleString(),
+    location: "📍",
+    text: "Shanghai, a city of contrasts, mixes ancient traditions with cutting-edge modernity. From the historic Bund to the soaring skyline, it's a place where culture and innovation meet.",
+  },
+  {
+    index: 1,
+    img: { src: "/Paris.webp", alt: "Paris image" },
+    name: "Paris, France",
+    date: new Date().toLocaleString(),
+    location: "📍",
+    text: "Paris, the **City of Light**, is famous for its rich history, iconic landmarks, and romantic atmosphere. From the **Eiffel Tower** to the **Louvre Museum**, it blends culture, art, and fashion. Strolling along the **Seine River**, enjoying a café in **Montmartre**, or exploring the **Champs-Élysées** makes every visit unforgettable.",
+  },
+  {
+    index: 2,
+    img: { src: "/newyork.webp", alt: "New York image" },
+    name: "New York City, USA",
+    date: new Date().toLocaleString(),
+    location: "📍",
+    text: "New York City, the city that never sleeps, is known for its towering skyscrapers, Broadway shows, and diverse culture. Whether you're exploring **Times Square**, walking in **Central Park**, or admiring the **Statue of Liberty**, there's always something exciting happening.",
+  },
+  {
+    index: 3,
+    img: { src: "/shanghai.webp", alt: "Tokyo image" },
+    name: "Tokyo, Japan",
+    date: new Date().toLocaleString(),
+    location: "📍",
+    text: "Tokyo is a fascinating blend of ultramodern and traditional. From the historic **Meiji Shrine** to the neon lights of **Shinjuku**, this city offers a perfect mix of technology, culture, and delicious cuisine.",
+  },
+  {
+    index: 4,
+    img: { src: "/Paris.webp", alt: "Rome image" },
+    name: "Rome, Italy",
+    date: new Date().toLocaleString(),
+    location: "📍",
+    text: "Rome, the **Eternal City**, is a treasure trove of history and culture. Explore the **Colosseum**, throw a coin into the **Trevi Fountain**, and indulge in authentic Italian cuisine in the heart of this timeless city.",
+  },
+  {
+    index: 5,
+    img: { src: "/Paris.webp", alt: "Dubai image" },
+    name: "Dubai, UAE",
+    date: new Date().toLocaleString(),
+    location: "📍",
+    text: "Dubai, known for its luxury and futuristic skyline, is home to the world's tallest building, **Burj Khalifa**, and the vast **Dubai Mall**. From desert safaris to man-made islands, Dubai is a city of limitless possibilities.",
+  },
+  {
+    index: 6,
+    img: { src: "/shanghai.webp", alt: "Rio de Janeiro image" },
+    name: "Rio de Janeiro, Brazil",
+    date: new Date().toLocaleString(),
+    location: "📍",
+    text: "Rio de Janeiro is famous for its vibrant energy, **Copacabana Beach**, and the iconic **Christ the Redeemer** statue. The city comes alive during **Carnival**, showcasing its rich music, dance, and culture.",
+  },
+  {
+    index: 7,
+    img: { src: "/newyork.webp", alt: "Sydney image" },
+    name: "Sydney, Australia",
+    date: new Date().toLocaleString(),
+    location: "📍",
+    text: "Sydney, with its stunning **Opera House** and **Harbour Bridge**, is a top travel destination. Bondi Beach, vibrant markets, and world-class dining make this city a must-visit in Australia.",
+  },
+];
+
+export default places;

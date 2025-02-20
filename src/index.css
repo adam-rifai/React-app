@@ -25,6 +25,7 @@ body {
 .entry-section {
   display: flex;
   padding: 10px;
+  /* align-items: center; */
 }
 .description {
   padding-left: 15px;
@@ -37,7 +38,8 @@ body {
 .city-img {
   border: 2px solid black;
   border-radius: 10px;
-  width: 300px;
+  width: 250px;
+  margin-left: 20px;
 }
 .city-title {
   font-size: 1em;
